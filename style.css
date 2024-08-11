@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7ede2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* border: 5px solid black; */
+    width: 40vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-weight: 500
+}
+
+.header {
+    grid-column: span 2;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.title {
+    grid-column: span 2;
+    text-align: center;
+    
+}
+
+.prep-time, .ingredients, .instructions, .nutrition {
+    background-color: #fff5e1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.prep-time, .ingredients {
+    grid-column: span 2;
+}
+.prep-time li span{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.instructions {
+    grid-column: span 2;
+}
+.ins-list li{
+    padding-bottom:30px ;
+}
+.instructions  li span{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.nutrition {
+    grid-column: span 2;
+    background-color: #fff5e1; /* Optional background */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+h1, h3 {
+    margin-top: 0;
+    
+
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures no extra space between table cells */
+}
+
+.nutrition table td {
+    padding: 8px 20px; /* Adds vertical spacing */
+    font-size: 16px; /* Ensures the font size is uniform */
+}
+.nutrition span{
+    color: darkred;
+    font-weight: bold;
+} 
+.nutrition h1{
+    color: darkred;
+}
+ .ingredients h1{
+    color: darkred;
+}
+.instructions h1{
+    color: darkred;
+}
+.prep-time h3{
+    color: darkred;
+}
+
